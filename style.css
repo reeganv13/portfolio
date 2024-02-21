@@ -493,7 +493,7 @@ nav h1{
     }
     .Skillset{
         top: 98%;
-        left: -10px;
+        left:20px;
         width: 100%;
     }
     .Education{
@@ -574,4 +574,20 @@ nav h1{
     width: 50%;
     margin-top: -5px;
  }
+}
+@media screen and (max-width:410px) {
+    .skill-tag{
+        margin-top: 20px;  
+            
+        top:200%;
+        left: 10px;
+    }
+    .Skillset{
+        top: 98%;
+        left:-30px;
+        width: 100%;
+    }
+    .Education{
+        left: -1%;
+    }
 }
